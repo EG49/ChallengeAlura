@@ -1,5 +1,5 @@
 body{
-    background: #B266FF;
+    background: #B5ead7;
 }
 
 #aluraLogo{
@@ -27,11 +27,12 @@ body{
     position: absolute;
     width: 400px;
     height: 944px;
-    left: 1000px;
+    left: 1300px;
     top: 40px;
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
+    margin-bottom: 10px;
 
 }
 
@@ -90,3 +91,47 @@ body{
     align-self: stretch;
     flex-grow: 0;
  }
+ .cajaTextoEncriptar{
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    left: 240px;
+    top: 168px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+ }
+
+ #textoEncriptar{
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+    border-radius: 32px; 
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    color: #0A3871;
+}
