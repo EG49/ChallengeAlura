@@ -49,6 +49,7 @@ body{
     left: auto;
     bottom: 20%;
     margin-left: 32px;
+    
 }
 .titulo{
     width: 336px;
@@ -69,23 +70,13 @@ body{
  .subtitulo{
     width: 336px;
     height: 48px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    /* or 24px */
-
     text-align: center;
-
-    /* Gray/gray-400 */
-
     color: #495057;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     align-self: stretch;
@@ -105,23 +96,14 @@ body{
  #textoEncriptar{
     width: 336px;
     height: 48px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    /* or 24px */
-
     text-align: center;
-
-    /* Gray/gray-400 */
-
     color: #495057;
-
     border-radius: 32px; 
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     align-self: stretch;
@@ -141,7 +123,6 @@ body{
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-
     position: absolute;
     width: 680px;
     height: 67px;
@@ -155,61 +136,40 @@ body{
     align-items: flex-start;
     padding: 24px;
     gap: 8px;
-
     width: 328px;
     height: 67px;
-
-    /* Dark blue/dark-blue-300 */
-
     background: #0A3871;
     border-radius: 24px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
-    
 }
 .botonAzul p{
     width: 280px;
     height: 19px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-
-    /* White */
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 1;
 }
 .botonBlanco{
     box-sizing: border-box;
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
     gap: 8px;
-
     width: 328px;
     height: 67px;
-    /* Light gray */
     background: #D8DFE8;
-    /* Dark blue/dark-blue-300 */
     border: 1px solid #0A3871;
     border-radius: 24px;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -217,21 +177,13 @@ body{
 .botonBlanco p{
     width: 280px;
     height: 19px;
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    
-    /* Dark blue/dark-blue-300 */
-    
     color: #0A3871;
-    
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 0;
     flex-grow: 1;
