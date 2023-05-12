@@ -29,7 +29,7 @@
         </section>                                                          
         <div class = "cajaTextoEncriptar">
            
-             <input type="text" id="textoEncriptar" class="input-padron" required placeholder="Ingrese el texto aquí " >
+            <input type="text" id="textoEncriptar" class="input-padron" required placeholder="Ingrese el texto aquí">
 
 
         </div>
@@ -44,23 +44,34 @@
 
         <script>
             var button = document.getElementById("botonAzul");
-            var input = document.getElementById("textoEncriptar");
-            var inputValue = input.value;
 
-            /*function leerInput() {
+            let input = document.getElementById("textoEncriptar");
+            
+            var inputValue2 = input.value;
+
+            function leerInput() {
                  var input = document.getElementById("textoEncriptar");
                 var inputValue = input.value;
                  console.log(inputValue);
-            }*/
-          function encriptarCadena(cadena){
-            for(var contador = 0; contador < cadena.lenght; contador++){
-                var aux = contador + 1;
-                if(cadena.substring(contador, aux )== a){
-                    cadena.replace("a",)
-                }
-
+                 return inputValue;
             }
-          }
+            function encriptarCadena(cadena){
+                
+                let cadenaEncriptada = cadena.replace(/e/g, "enter")
+                            .replace(/i/g, "imes")
+                            .replace(/a/g, "ai")
+                            .replace(/o/g, "ober")
+                            .replace(/u/g, "ufat");
+                console.log(cadenaEncriptada)
+                return(cadenaEncriptada);
+            }
+            var x = encriptarCadena(leerInput);
+            console.log(x);
+            
+            let texto = leerInput;
+            console.log(texto)
+            let nuevoTexto = encriptarCadena(texto);
+            console.log(nuevoTexto);
 
             
 
