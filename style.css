@@ -1,5 +1,5 @@
 body{
-    background: #B5ead7;
+    background: #E5E5E5;
 }
 
 #aluraLogo{
@@ -14,7 +14,6 @@ body{
 .contenedorLogo{
     width: 120px;
     height: 48px;
-    background: white;
     border-radius: 32px;
     position: absolute;
     left: 4em; 
@@ -88,9 +87,7 @@ body{
     height: 600px;
     left: 240px;
     top: 168px;
-    background: #FFFFFF;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
+   
  }
 
  #textoEncriptar{
@@ -102,10 +99,10 @@ body{
     font-size: 16px;
     line-height: 150%;
     text-align: center;
-    color: #495057;
     border-radius: 32px; 
     flex: none;
     order: 1;
+    background: #E5E5E5;
     align-self: stretch;
     flex-grow: 0;
     border: none;
@@ -115,7 +112,33 @@ body{
     font-size: 32px;
     line-height: 150%;
     color: #0A3871;
-    color: #0A3871;
+}
+.textoAdvertencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+
+}
+.textoAdvertencia p {
+    width: 220px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 .posicionBotones{
     display: flex;
