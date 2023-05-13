@@ -44,20 +44,21 @@
 
         <script>
             var button = document.getElementById("botonAzul");
-
             let input = document.getElementById("textoEncriptar");
-            
-            var inputValue2 = input.value;
-
+            var input2 = document.querySelector("input");
+            var inputValue2= input2.value;
+            console.log(inputValue2)
+            let valorInput = input.value;
+            console.log(valorInput);
             function leerInput() {
                  var input = document.getElementById("textoEncriptar");
-                var inputValue = input.value;
+                 var inputValue = input.value;
                  console.log(inputValue);
                  return inputValue;
             }
-            function encriptarCadena(cadena){
+            function encriptarCadena(){
                 
-                let cadenaEncriptada = cadena.replace(/e/g, "enter")
+                let cadenaEncriptada = (input.value).replace(/e/g, "enter")
                             .replace(/i/g, "imes")
                             .replace(/a/g, "ai")
                             .replace(/o/g, "ober")
@@ -65,19 +66,7 @@
                 console.log(cadenaEncriptada)
                 return(cadenaEncriptada);
             }
-            var x = encriptarCadena(leerInput);
-            console.log(x);
-            
-            let texto = leerInput;
-            console.log(texto)
-            let nuevoTexto = encriptarCadena(texto);
-            console.log(nuevoTexto);
-
-            
-
-
-
-
+            button.onclick=encriptarCadena;
         </script>
      
     </body>
